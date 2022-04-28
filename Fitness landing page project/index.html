@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets link -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="#main" class="skip-to-main-content">Skip to main content</a>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo">
+                <span class="sr-only">Zoo 365</span>
+                <a href="/" aria-label="Zoo 365 Logo"> <img src="./img/logo.svg" alt="Zoo365__logo"> </a>
+            </h1>
+
+            <div class="header__menu">
+                <!-- Mobile nav start -->
+                <button class="button" id="mobileMenuBtn" aria-label="Toggle Menu" aria-expanded="false"
+                    aria-controls="mobileMenu">
+                    <img src="./img/menu.svg" alt="">
+                </button>
+                <!-- Mobile nav end -->
+
+                <!-- Desktop nav start -->
+                <nav class="desktop-menu">
+                    <h1 class="sr-only">Main Navigation</h1>
+
+                    <ul>
+                        <li><a href="#" class="desktop-menu__link active">Home</a></li>
+                        <li><a href="#" class="desktop-menu__link">About</a></li>
+                        <li><a href="#" class="desktop-menu__link">Shop</a></li>
+                        <li><a href="#" class="desktop-menu__link">Gallery</a></li>
+                        <li><a href="#" class="desktop-menu__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- Desktop nav end -->
+            </div>
+        </div>
+    </header>
+
+    <!--Mobile nav start -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <h1 class="sr-only">Main Navigation</h1>
+        <button class="button mobile-nav-close"></button>
+        <ul>
+            <li><a href="#" class="mobile-menu__link active">Home</a></li>
+            <li><a href="#" class="mobile-menu__link">About</a></li>
+            <li><a href="#" class="mobile-menu__link">Shop</a></li>
+            <li><a href="#" class="mobile-menu__link">Gallery</a></li>
+            <li><a href="#" class="mobile-menu__link">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Mobile nav end -->
+
+    <main>
+        <section class="hero">
+            <div class="hero__image">
+                <img src="./img/hero.jpg" alt="lifting-heavy!" width="1920" height="1074">
+            </div>
+
+            <div class="container hero__container">
+                <div class="hero__wrapper" id="main">
+                    <h1 class="hero-wrapper__heading">Make this year <span> your year</span>.</h1>
+                    <p class="hero-wrapper__body">Define your limits and pursue your fitness goals with a complimentary
+                        all-access gym pass!
+                    </p>
+                    <a href="#" class="button button--primary" aria-label="find out more">Find out more</a>
+                </div>
+
+                <a href="#scrolldown" class="hero__scrollBtn">
+                    SCROLL <img src="./img/arrow-down.svg" alt="DOWN" loading="lazy">
+                </a>
+            </div>
+        </section>
+
+        <section class="categories pt-1" id="scrolldown">
+            <h1 class="sr-only">Training Categories</h1>
+
+            <div class="container training">
+                <a href="#" class="training__card training__card--square">
+                    <h3 class="training__card-title">Expert Coaching</h3>
+                    <div class="image-overlay"></div>
+                    <div class="training__image">
+                        <img src="./img/expert-coaching.jpg" alt="Expertng coaching" loading="lazy">
+                    </div>
+                </a>
+
+                <a href="#" class="training__card training__card--square">
+                    <h3 class="training__card-title">Expert Coaching</h3>
+                    <div class="image-overlay"></div>
+                    <div class="training__image">
+                        <img src="./img/expert-coaching.jpg" alt="Expertng coaching" loading="lazy">
+                    </div>
+                </a>
+
+                <a href="#" class="training__card training__card--square">
+                    <h3 class="training__card-title">Expert Coaching</h3>
+                    <div class="image-overlay"></div>
+                    <div class="training__image">
+                        <img src="./img/expert-coaching.jpg" alt="Expertng coaching" loading="lazy">
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="get-started get-started-img1 mt-1">
+            <div class="overlay"></div>
+
+            <div class="container">
+                <h1 class="text-center">Get Started Today <br /> <span>Why Wait</span></h1>
+                <a href="#" class="button button--primary">Sign Up</a>
+            </div>
+
+        </section>
+
+
+
+
+
+
+        <section class="training-options pt-1">
+
+            <div class="container">
+                <h1 class="training-options__heading text-center">Your Training <span>Options</span></h1>
+                <p class="training-options__body text-center">Defy your limits and pursue your fitness goals with a
+                    complimentary
+                    all-access gym pass! Try our wide-variety of classes, train with world-class coaches, and access the
+                    equipment you need. Avialable at participating locations. Offers vary by loaction. Terms and
+                    conditions may apply.
+                </p>
+
+                <div class="training  pt-1">
+
+                    <a href="#" class="training__card training__card--end">
+                        <h3 class="training__card-title">Small Group PT</h3>
+                        <p class="training__card-body">Expect the unexpected in our signature high-intensity interval
+                            training class. Cycle through
+                            timed interval stations designed to consistently shock your sysyem and deliver results.
+                        </p>
+                        <div class="image-overlay"></div>
+                        <div class="training__image">
+                            <img src="./img/nutrition.jpg" alt="Small Group PT" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a href="#" class="training__card training__card--end">
+                        <h3 class="training__card-title">classes</h3>
+                        <p class="training__card-body">Develop strength, conditioning, and flexibility with our Z00 365
+                            - inspired fitness routines. These efficient, effective, total-body workouts can be done at
+                            home with miinimal equipment.
+                        </p>
+                        <div class="image-overlay"></div>
+                        <div class="training__image">
+                            <img src="./img/expert-coaching.jpg" alt="Expertng coaching" loading="lazy">
+                        </div>
+                    </a>
+
+                    <a href="#" class="training__card training__card--end">
+                        <h3 class="training__card-title">One To One</h3>
+                        <p class="training__card-body">Receive expert advice, a personalized plan, 1-on-1 real-time
+                            attention with online personal training. Regardless of goal or athletic ability, we have a
+                            coach for you. Equipment not necessary.
+                        </p>
+                        <div class="image-overlay"></div>
+                        <div class="training__image">
+                            <img src="./img/support.jpg" alt="Expertng coaching" loading="lazy">
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="get-started get-started-img2 mt-1">
+            <div class="overlay"></div>
+
+            <div class="container">
+                <h1 class="text-center">WE WILL HELP YOU GET IN <br /> THE SHAPE OF YOUR LIFE <br /> <span>LET'S GET
+                        STARTED</span>
+                </h1>
+                <a href="#" class="button button--primary">Sign Up</a>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer pt-1">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 class="footer-col__heading">Find Us</h3>
+                <ul class="footer-col__list">
+                    <li>Address: <a href="#">43 Moscow Pi London</a></li>
+                    <li>Contact: <a href="tel:02564655465">02564655465</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-col__heading">Get Assistance</h3>
+                <ul class="footer-col__list">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-col__heading">Company</h3>
+                <ul class="footer-col__list">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-col__heading">Keep In Touch</h3>
+                <ul class="footer-col__list">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container text-center footer__copyright">
+            <p class="pt-1">&copy; 2021 Zoo365 - Created by <a href="https://raddy.co.uk" target="_blank">Raddy</a></p>
+        </div>
+    </footer>
+
+
+    <!-- Javascript link -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
